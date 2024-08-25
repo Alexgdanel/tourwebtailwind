@@ -12,73 +12,154 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Italianno&family=Lobster&family=Matemasie&family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Chivo:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Permanent+Marker&family=Sedgwick+Ave&display=swap" rel="stylesheet">
+    
 
 
 </head>
 <body>
   <!-- home -->
-     <div class="home h-screen w-full bg-orange-700 " id="home">
-        <h1 class="sm:ml-52 sm:pt-72 lg:pt-72 lg:ml-64 lg:ps-56 lg:text-6xl text-5xl font-bold	">Travels & Tours</h1>
-        <!-- <a class="text-none mt-96" href="">More</a> -->
+     <div class="home h-screen w-full 	" id="home">
+      <nav class="bg-transparent navbar">
+        <div class="w-full flex flex-wrap items-center justify-between sm:p-4 ">
+          <a href="#" class="flex items-center space-x-2 rtl:space-x-reverse ">
+              <span class=" self-center text-2xl font-bold whitespace-nowrap text pr-12">Elite Voyages </span>
+          </a>
+          <button  data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 mt-4 w-10 h-10 justify-center text-sm rounded-lg md:hidden hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-200  " aria-controls="navbar-default" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4  rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent bg-gray-700  ">
+                <li>
+                    <a href="#home" class="block py-2 px-3  rounded hover:text-sky-400	 md:hover:bg-transparent md:border-0  md:p-0 ">Home</a>
+                  </li>
+              <li>
+                <a href="#about" class="block py-2 px-3 rounded hover:text-sky-400	 md:hover:bg-transparent md:border-0  md:p-0 ">About</a>
+              </li>
+              <li>
+                <a href="#service" class="block py-2 px-3  rounded hover:text-sky-400	 md:hover:bg-transparent md:border-0  md:p-0 ">Services</a>
+              </li>
+              <li>
+                <a href="#galler" class="block py-2 px-3 rounded hover:text-sky-400	 md:hover:bg-transparent md:border-0 md:p-0 ">Gallery</a>
+              </li>
+             
+              <li>
+                <a href="#review" class="block py-2 px-3 rounded hover:text-sky-400	 md:hover:bg-transparent md:border-0  md:p-0 ">Reviews</a>
+              </li>
+            
+              <li>
+                <a href="#footers" class="block py-2 px-3 rounded hover:text-sky-400	 md:hover:bg-transparent md:border-0  md:p-0 ">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+        <h1 class="text-center text-6xl md:text-6xl font-bold mt-40 w-4/6 h-auto bg-transparent py-12" data-aos="zoom-out">Travels & <br>Tours</h1>
+      
       </div>
     
 
      <!-- image home -->
-      <div class="homeimage">
+      <div class="home2 grid-cols-1  px-16 md:px-12">
 
-      </div>
+        <img data-aos="zoom-in-down" class="h-auto max-w-full md:py-32 md:px-24" src="./images/travel.jpg" alt="image description">
+
+        
+        </div>
+
+      
   
 
      <!-- about -->
-      <div class="grid grid-cols-12 gap-y-16 mt-16 bg-green-200	">
-        <h1 class="col-start-3 col-end-12 lg:col-start-4 lg:col-end-12 sm:col-start-2 sm:col-end-12 md:text-2xl md:text-6xl text-2xl font-bold ">Welcome to our website </h1>
-        <p class="col-start-2 col-end-12 "> we believe that every journey should be a memorable adventure. With a passion for exploration and a commitment to exceptional service, we have been crafting personalized travel experiences for our clients for over 10 years. Whether you're dreaming of a relaxing beach getaway, an exhilarating safari, or a cultural city tour, our expert team is dedicated to turning your travel dreams into reality. We pride ourselves on offering tailored itineraries that cater to your unique interests and needs, ensuring that every trip is as seamless as it is unforgettable. Let us take care of the details, so you can focus on making memories that last a lifetime</p>
-        <a class="col-start-2 col-end-10" href=""><i class="fa-regular fa-circle-play" style="color: #74C0FC;"></i>     Watch the video</a>
+      <div class="grid grid-cols-12 gap-y-16 h-full pb-8" id="about">
+        <h1 class="col-start-3 col-end-12 lg:col-start-4 lg:col-end-12 sm:col-start-2 sm:col-end-12 md:text-2xl md:text-6xl text-2xl font-bold mainhead" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">Welcome to our website </h1>
+        <p class="col-start-2 col-end-12 " data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"> we believe that every journey should be a memorable adventure. With a passion for exploration and a commitment to exceptional service, we have been crafting personalized travel experiences for our clients for over 10 years. Whether you're dreaming of a relaxing beach getaway, an exhilarating safari, or a cultural city tour, our expert team is dedicated to turning your travel dreams into reality. We pride ourselves on offering tailored itineraries that cater to your unique interests and needs, ensuring that every trip is as seamless as it is unforgettable. Let us take care of the details, so you can focus on making memories that last a lifetime</p>
+        <a class="col-start-2 col-end-10" href=""><i class="fa-regular fa-circle-play" style="color: #3aafa9;"></i> Watch the video</a>
       </div>
 
 
     <!-- service -->
-    <div class="h-auto bg-orange-200">
-      <h1 class="text-center pt-12 text-2xl lg:text-5xl">Experience once in your lifetime</h1>
-      <p class="text-center lg:px-24 md:px-16 mt-12">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
+    <div class="h-auto" id="service">
+      <h1 class="text-center pt-12 text-2xl lg:text-5xl font-bold mainhead" data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">Experience once in your lifetime</h1>
+      <p class="text-center lg:px-24 md:px-16 mt-12" data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
 
       <div class="h-auto grid grid-cols-3 gap-y-12 py-10 lg:grid-cols-4 lg:gap-x-16	">
 
-        <div class="col-start-2 col-end-3 flex flex-col	gap-2 items-center lg:col-start-2 lg:col-end-3	">
-          <i class="fa-solid fa-utensils fa-4x" style="color: #63E6BE;"></i>
-          <h2 class="font-bold text-lg	">Good Foods</h2>
+        <div class="col-start-2 col-end-3 flex flex-col	gap-2 items-center lg:col-start-2 lg:col-end-3" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+          <i class="fa-solid fa-utensils fa-4x" style="color: #17252a;"></i>
+          <h2 class="font-bold text-lg">Good Foods</h2>
           <p class="text-justify"> By offering a diverse selection of meals that cater to various dietary preferences and local cuisines</p>
         </div>
 
-        <div class="col-start-2 col-end-3 flex flex-col	gap-2 items-center  lg:col-start-3 lg:col-end-4	">
-          <i class="fa-solid fa-utensils fa-4x" style="color: #63E6BE;"></i>
-          <h2 class="font-bold text-lg	">Good Foods</h2>
-          <p class="text-justify"> By offering a diverse selection of meals that cater to various dietary preferences and local cuisines</p>
+        <div class="col-start-2 col-end-3 flex flex-col	gap-2 items-center  lg:col-start-3 lg:col-end-4	" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+          <!-- <i class="fa-solid fa-utensils fa-4x" style="color: #17252a;"></i> -->
+          <i class="fa-solid fa-earth-africa fa-4x" style="color:#17252a;"></i>
+          <h2 class="font-bold text-lg	">Travel Anywhere</h2>
+          <p class="text-justify"> We provide various destinations and travel anywhere you like and we also provide tour guide to help</p>
         </div>
 
-        <div class="col-start-2 col-end-3 flex flex-col	gap-2 items-center  lg:col-start-2 lg:col-end-3	">
-          <i class="fa-solid fa-utensils fa-4x" style="color: #63E6BE;"></i>
-          <h2 class="font-bold text-lg	">Good Foods</h2>
-          <p class="text-justify"> By offering a diverse selection of meals that cater to various dietary preferences and local cuisines</p>
+        <div class="col-start-2 col-end-3 flex flex-col	gap-2 items-center  lg:col-start-2 lg:col-end-3	" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+          <!-- <i class="fa-solid fa-utensils fa-4x" style="color:  #17252a;"></i> -->
+          <i class="fa-solid fa-plane-departure fa-4x" style="color: #17252a;"></i>
+          <h2 class="font-bold text-lg	">Airplane</h2>
+          <p class="text-justify"> Our state-of-the-art airplane facility offers a full range of services to meet all your aviation needs.</p>
         </div>
 
-        <div class="col-start-2 col-end-3 flex flex-col	gap-2 items-center lg:col-start-3 lg:col-end-4	">
-          <i class="fa-solid fa-utensils fa-4x" style="color: #63E6BE;"></i>
-          <h2 class="font-bold text-lg	">Good Foods</h2>
-          <p class="text-justify"> By offering a diverse selection of meals that cater to various dietary preferences and local cuisines</p>
+        <div class="col-start-2 col-end-3 flex flex-col	gap-2 items-center lg:col-start-3 lg:col-end-4	" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+          <!-- <i class="fa-solid fa-utensils fa-4x" style="color:  #17252a;"></i> -->
+          <i class="fa-solid fa-umbrella-beach fa-4x" style="color:  #17252a ;"></i>
+          <h2 class="font-bold text-lg	">Beach Resort</h2>
+          <p class="text-justify">Our beach resort offers a wide range of facilities to ensure a comfortable and enjoyable stay for all our guests</p>
         </div>
 
-        <div class="col-start-2 col-end-3 flex flex-col	gap-2 items-center  lg:col-start-2 lg:col-end-3	">
-          <i class="fa-solid fa-utensils fa-4x" style="color: #63E6BE;"></i>
-          <h2 class="font-bold text-lg	">Good Foods</h2>
-          <p class="text-justify"> By offering a diverse selection of meals that cater to various dietary preferences and local cuisines</p>
+        <div class="col-start-2 col-end-3 flex flex-col	gap-2 items-center  lg:col-start-2 lg:col-end-3	"data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+          <!-- <i class="fa-solid fa-utensils fa-4x" style="color: #17252a;"></i> -->
+          <i class="fa-solid fa-mountain-sun fa-4x" style="color:#17252a;"></i>
+          <h2 class="font-bold text-lg	">Mountain hiking</h2>
+          <p class="text-justify">Our mountain hiking facility is available year-round, offering a range of trails suitable for all</p>
         </div>
 
-        <div class="col-start-2 col-end-3 flex flex-col	gap-2 items-center lg:col-start-3 lg:col-end-4	">
-          <i class="fa-solid fa-utensils fa-4x" style="color: #63E6BE;"></i>
-          <h2 class="font-bold text-lg	">Good Foods</h2>
-          <p class="text-justify"> By offering a diverse selection of meals that cater to various dietary preferences and local cuisines</p>
+        <div class="col-start-2 col-end-3 flex flex-col	gap-2 items-center lg:col-start-3 lg:col-end-4	" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+          <!-- <i class="fa-solid fa-utensils fa-4x" style="color:  #17252a;"></i> -->
+          <i class="fa-solid fa-photo-film fa-4x" style="color: #17252a;"></i>
+          <h2 class="font-bold text-lg	">Films</h2>
+          <p class="text-justify"> The film-watching facility at our venue offers an immersive experience for all movie enthusiasts. Equipped </p>
         </div>
 
        
@@ -87,34 +168,38 @@
       </div>
 
     <!-- gallery -->
-     <div class="h-auto">
-      <h1 class="text-center text-2xl sm:text-5xl font-bold pt-16">International Tour <br> Management</h1>
-      <p class="text-center pt-12 md:mx-16">International tour management at our agency ensures seamless and unforgettable travel experiences across the globe. We handle every detail, from itinerary planning and accommodation to local guides and transportation.</p>
+     <div class="h-auto pb-12" id="galler">
+      <h1 class="text-center text-2xl sm:text-5xl font-bold pt-16 mainhead" data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">International Tour <br> Management</h1>
+      <p class="text-center pt-12 md:mx-16" data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">International tour management at our agency ensures seamless and unforgettable travel experiences across the globe. We handle every detail, from itinerary planning and accommodation to local guides and transportation.</p>
 
       
     <!-- carousal -->
-     <div id="default-carousel" class="relative w-full md:w-10/12 md:ml-28 md:mr-36 mt-20" data-carousel="slide">
+     <div id="default-carousel" class="relative w-full md:w-10/12 md:ml-28 md:mr-36 mt-20 cor" data-carousel="slide">
   <!-- Carousel wrapper -->
   <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
        <!-- Item 1 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="./images/bg.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          <img src="./images/travel1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
       </div>
       <!-- Item 2 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="./images/bg.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          <img src="./images/travel2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
       </div>
       <!-- Item 3 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="./images/bg.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          <img src="./images/travel3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
       </div>
       <!-- Item 4 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="./images/bgim.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          <img src="./images/travel4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
       </div>
       <!-- Item 5 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="./images/bgim.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          <img src="./images/travel5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
       </div>
   </div>
   <!-- Slider indicators -->
@@ -147,28 +232,35 @@
      </div>
 
      <!-- blog -->
-     <div class="blog bg-gray-200 h-auto w-full">
-      <h1 class="text-center text-2xl sm:text-5xl font-bold pt-8">Recent Blog Post</h1>
-      <p class="text-center mx-16 mt-12">Our latest blog posts are now live, offering fresh insights and exciting updates! Dive into articles that explore top travel destinations, insider tips for a hassle-free journey, and the latest trends in international tourism</p>
+     <div class="blog  h-auto w-full pb-12" id="blogs">
+      <h1 class="text-center text-2xl sm:text-5xl font-bold pt-8 mainhead" data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">Recent Blog Post</h1>
+      <p class="text-center mx-16 mt-12" data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">Our latest blog posts are now live, offering fresh insights and exciting updates! Dive into articles that explore top travel destinations, insider tips for a hassle-free journey, and the latest trends in international tourism</p>
 
-      <div class="h-auto w-full px-16 bg-gray-300 grid grid-cols-1 gap-y-20 md:gap-x-12 md:grid-cols-4 mt-20">
+      <div class="h-auto w-full px-16 grid grid-cols-1 gap-y-20 md:gap-x-12 md:grid-cols-4 mt-20">
 
-        <div class="flex flex-col gap-2 md:col-start-2 md:col-end-3">
-          <img class="w-full" src="./images/bgim.jpg" alt="">
-          <h2 class="text-center">45 best restaurents</h2>
-          <p>best 45 restaurents in the world. explore tastes accross the world</p>
+        <div class="flex flex-col gap-2 md:col-start-2 md:col-end-3 blogpic" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <img class="w-full rounded	" src="./images/hidden.jpg" alt="">
+          <h2 class="text-center">Exploring the Hidden Gems</h2>
+          <p class="pl-2">Discover the lesser-known destinations that offer unique experiences away from the usual tourist spots.</p>
         </div>
 
-        <div class="flex flex-col gap-2 md:col-start-3 md:col-end-4">
-          <img class="w-full" src="./images/bgim.jpg" alt="">
-          <h2 class="text-center">45 best restaurents</h2>
-          <p>best 45 restaurents in the world. explore tastes accross the world</p>
+        <div class="flex flex-col gap-2 md:col-start-3 md:col-end-4 blogpic" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <img class="w-full rounded" src="./images/guide.jpg" alt="">
+          <h2 class="text-center"> Guide to Sustainable Travel</h2>
+          <p class="pl-2">As more travelers seek to reduce their environmental impact, sustainable tourism is becoming increasingly important</p>
         </div>
 
-        <div class="flex flex-col gap-2 md:col-start-2 md:col-end-4">
-          <img class="w-full" src="./images/bgim.jpg" alt="">
-          <h2 class="text-center">45 best restaurents</h2>
-          <p>best 45 restaurents in the world. explore tastes accross the world</p>
+        <div class="flex flex-col gap-2 md:col-start-2 md:col-end-4 blogpic" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <img class="w-full rounded	" src="./images/family.jpg" alt="">
+          <h2 class="text-center">Plan the Perfect Family Vacation</h2>
+          <p class="pl-2">Planning a family vacation can be both exciting and challenging. In this blog, our tour agency shares </p>
         </div>
        
 
@@ -176,21 +268,26 @@
      </div>
 
      <!-- reviews -->
-      <div class="h-auto w-full bg-green-200">
-        <h1 class="sm:text-5xl text-2xl font-bold text-center pt-16">Happy Customers</h1>
+      <div class="h-auto w-full pb-8" id="review">
+        <h1 class="sm:text-5xl text-2xl font-bold text-center pt-16 mainhead"  data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">Happy Customers</h1>
         <div class="h-auto w-full grid grid-cols-1 mt-16 gap-y-12 lg:grid-cols-3">
-          <div class="flex flex-col space-y-3">
-            <img src="./images/people.png" alt="" class="image1 h-auto w-20 sm:w-24 rounded-full sm:mx-16 mx-12">
+          <div class="flex flex-col space-y-3" data-aos="fade-up"
+          data-aos-duration="3000">
+            <img src="./images/john.jpg" alt="" class="image1 h-auto w-20 sm:w-24 rounded-full sm:mx-16 mx-12">
             <p class="sm:mx-16 mx-12">"I recently booked a vacation with this tour agency, and it was an absolute dream! From start to finish, everything was organized perfectly. The itinerary was well thought out, giving us the perfect balance between sightseeing and relaxation. Our tour guide was knowledgeable, friendly, and always eager to help. The local experiences they arranged were truly special, allowing us to immerse ourselves in the culture. I can't recommend this agency enough and will definitely be using them for our next adventure!"</p>
             <h4 class="mx-12 sm:mx-16">-John Thomas</h4>
           </div>
-          <div class="flex flex-col space-y-3">
-            <img src="./images/people.png" alt="" class="image1 h-auto w-20 sm:w-24 rounded-full sm:mx-16 mx-12">
-            <p class="sm:mx-16 mx-12">"Our family just returned from a fantastic trip arranged by this tour agency. They took care of every detail, from airport transfers to accommodation and activities, making our holiday stress-free. The guides were professional, and the excursions were thoughtfully selected, ensuring we got the most out of our time in each location. The personal touches, like surprise treats and tailored recommendations, made us feel truly valued. We’ve already started planning our next trip with them!"</p>
+          <div class="flex flex-col space-y-3" data-aos="fade-up"
+          data-aos-duration="3000">
+            <img src="./images/ada.jpg" alt="" class="image1 h-auto w-20 sm:w-24 rounded-full sm:mx-16 mx-12">
+            <p class="sm:mx-16 mx-12">"Our family just returned from a fantastic trip arranged by this tour agency. They took care of every detail, from airport transfers to accommodation and activities, making our holiday stress-free. The guides were professional, and the excursions were thoughtfully selected, ensuring we got the most out of our time in each location. Our tour guide was knowledgeable, friendly, The personal touches, like surprise treats and tailored recommendations, made us feel truly valued. We’ve already started planning our next trip with them!"</p>
             <h4 class="mx-12 sm:mx-16">-Ada Shelby</h4>
           </div>
-          <div class="flex flex-col space-y-3">
-            <img src="./images/people.png" alt="" class="image1 h-auto w-20 sm:w-24 rounded-full sm:mx-16 mx-12">
+          <div class="flex flex-col space-y-3" data-aos="fade-up"
+          data-aos-duration="3000">
+            <img src="./images/kevin.jpg" alt="" class="image1 h-auto w-20 sm:w-24 rounded-full sm:mx-16 mx-12">
             <p class="sm:mx-16 mx-12">"This tour agency exceeded our expectations in every way. The booking process was smooth, with staff going above and beyond to accommodate our needs and preferences. The tours were well-organized, and we never felt rushed, allowing us to fully enjoy each destination. The accommodations were top-notch, and the local experiences were unique and authentic. It was evident that the agency has strong connections and a deep understanding of the destinations they offer. A five-star experience all around!"</p>
             <h4 class="mx-12 sm:mx-16">-Kevin Mathew</h4>
           </div>
@@ -198,63 +295,143 @@
       </div>
 
       <!-- destination -->
-       <div class="h-auto w-full bg-orange-200">
-        <h1 class="text-center sm:text-5xl text-2xl font-bold pt-8">Top Destination</h1>
-        <p class="text-center mx-12 mt-8 lg:mx-32">our expert team is dedicated to crafting personalized experiences that match your travel desires. We pride ourselves on offering unique itineraries, luxury accommodations, and insider access to hidden gems, ensuring every trip is a memorable adventur</p>
-        <div class="h-auto w-full grid grid-cols-1 lg:grid-cols-2 lg:px-52  gap-y-8 py-12">
-          <div class="mx-12"> 
-            <img src="https://assets.anantara.com/image/upload/q_auto,f_auto,c_limit,w_1045/media/minor/anantara/images/anantara-dhigu-maldives-resort/spa/anantara_dhigu_spa_double_treatment_room_944x510.jpg" alt="">
-            <h3>Resort & Spa</h3>
+       <div class="h-auto w-full" id="dest">
+        <h1 class="text-center sm:text-5xl text-2xl font-bold pt-8 mainhead" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">Top Destination</h1>
+        <p class="text-center mx-12 mt-8 lg:mx-32" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">our expert team is dedicated to crafting personalized experiences that match your travel desires. We pride ourselves on offering unique itineraries, luxury accommodations, and insider access to hidden gems, ensuring every trip is a memorable adventur</p>
+        <div class="h-auto w-full grid grid-cols-1 lg:grid-cols-2 lg:px-52  gap-y-12 gap-x-12 py-12">
+          <div class="mx-12 blogpic"  data-aos="fade-up"
+          data-aos-duration="3000"> 
+            <img src="./images/iceland.jpg" alt=""  data-aos="fade-up"
+            data-aos-duration="3000">
+            <h3 class="font-bold my-4">Iceland</h3>
             <div class="icons">
-              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
-              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #2b7a78;"></i>
+              <i class="fa-solid fa-star" style="color: #2b7a78;"></i>
+              <i class="fa-solid fa-star" style="color: #2b7a78;"></i>
+              <i class="fa-solid fa-star-half-stroke" style="color: #2b7a78;"></i>
+              <i class="fa-regular fa-star" style="color: #2b7a78;"></i>
             </div>
           </div>
          
-          <div class="mx-12"> 
-            <img src="https://assets.anantara.com/image/upload/q_auto,f_auto,c_limit,w_1045/media/minor/anantara/images/anantara-dhigu-maldives-resort/spa/anantara_dhigu_spa_double_treatment_room_944x510.jpg" alt="">
-            <h3>Resort & Spa</h3>
+          <div class="mx-12 blogpic" data-aos="fade-up"
+          data-aos-duration="3000"> 
+            <img src="./images/prague.jpg" alt=""  data-aos="fade-up"
+            data-aos-duration="3000">
+            <h3 class="font-bold my-4">Prague</h3>
             <div class="icons">
-              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
-              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #2b7a78;"></i>
+              <i class="fa-solid fa-star" style="color: #2b7a78;"></i>
+              <i class="fa-solid fa-star" style="color: #2b7a78;"></i>
+              <i class="fa-solid fa-star-half-stroke" style="color: #2b7a78;"></i>
+              <i class="fa-regular fa-star" style="color: #2b7a78;"></i>
             </div>
           </div>
 
-          <div class="mx-12"> 
-            <img src="https://assets.anantara.com/image/upload/q_auto,f_auto,c_limit,w_1045/media/minor/anantara/images/anantara-dhigu-maldives-resort/spa/anantara_dhigu_spa_double_treatment_room_944x510.jpg" alt="">
-            <h3>Resort & Spa</h3>
+          <div class="mx-12 blogpic" data-aos="fade-up"
+          data-aos-duration="3000"> 
+            <img src="./images/maldives.jpg" alt=""  data-aos="fade-up"
+            data-aos-duration="3000">
+            <h3 class="font-bold my-4">Maldives</h3>
             <div class="icons">
-              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
-              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #2b7a78;"></i>
+              <i class="fa-solid fa-star" style="color: #2b7a78;"></i>
+              <i class="fa-solid fa-star" style="color: #2b7a78;"></i>
+              <i class="fa-solid fa-star-half-stroke" style="color: #2b7a78;"></i>
+              <i class="fa-regular fa-star" style="color: #2b7a78;"></i>
             </div>
           </div>
 
-          <div class="mx-12"> 
-            <img src="https://assets.anantara.com/image/upload/q_auto,f_auto,c_limit,w_1045/media/minor/anantara/images/anantara-dhigu-maldives-resort/spa/anantara_dhigu_spa_double_treatment_room_944x510.jpg" alt="">
-            <h3>Resort & Wines</h3>
+          <div class="mx-12 blogpic" data-aos="fade-up"
+          data-aos-duration="3000"> 
+            <img src="./images/barca.jpg" alt=""  data-aos="fade-up"
+            data-aos-duration="3000">
+            <h3 class="font-bold my-4">Barcelona</h3>
             <div class="icons">
-              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
-              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #2b7a78;"></i>
+              <i class="fa-solid fa-star" style="color: #2b7a78;"></i>
+              <i class="fa-solid fa-star" style="color: #2b7a78;"></i>
+              <i class="fa-solid fa-star-half-stroke" style="color: #2b7a78;"></i>
+              <i class="fa-regular fa-star" style="color: #2b7a78;"></i>
             </div>
           </div>
         </div>
        </div>
 
+       <!-- footer -->
+      <div class="w-full h-auto pb-8" id="footers">
+
+        <div class="w-5/6 h-auto grid grid-cols-1 ps-12 lg:grid-cols-4 lg:mx-28 lg:gap-x-12 ">
+         
+          <div class="my-12">
+            <ul class="flex flex-col gap-2">
+              <li class="font-bold">Quick Link</li>
+              <li>About Us</li>
+              <li>Terms & Conditions</li>
+              <li>Privacy Policy</li>
+              <li>Help</li>
+              <li>Rooms</li>
+            </ul>
+          </div>
+
+          <div class="my-12">
+            <ul class="flex flex-col gap-2">
+              <li class="font-bold">Support</li>
+              <li>Our Location</li>
+              <li>About</li>
+              <li>Contact</li>
+              <li>The Hosts</li>
+              <li>Rooms</li>
+              <li>Restaurent</li>
+            </ul>
+          </div>
+
+          <div class="my-12">
+            <ul class="flex flex-col gap-2">
+              <li class="font-bold">Contact Info</li>
+              <li>Address : <br> <span>98 west 21 street suite new york NY 10098</span></li>
+              <li>Phone: <br><span> 8756432</span></li>
+              <li>Email : <br> <span>info@email.com</span></li>
+            </ul>
+          </div>
+
+          
+          <div class="my-12">
+            <ul class="flex flex-col gap-2">
+              <li class="font-bold">Subscribe</li>
+              <li>Sign up for our news letter</li>
+              <li><input class="emailf bg-black " type="email" placeholder="enter your email"></li>
+            </ul>
+          </div>
+        
+        </div>
+
+        <hr>
+        <h2 class="text-center text-lg pt-12 font-bold ">Follow Us</h2>
+        <div class="flex justify-center items-center gap-3 pb-8 pt-8">
+          <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+          <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+          <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+          <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+          <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+        </div>
+         <div class="uparrow flex justify-center items-center ">
+          <a href="#home"><i class="fa-solid fa-angle-up hover:text-gray-800" style="color:  #3aafa9"></i></a>
+        </div>
+        
+
+        
+      </div>
 
 
     
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </html
